@@ -1,0 +1,138 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	font: 16px "Lato", sans-serif;
+	color: #777;
+	padding: 0;
+	min-width: 480px;
+}
+
+
+h1 {
+	font-size: 2em;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 0;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.5em;
+	padding: 0;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: #111;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	display: inline;
+	padding: 0;
+	font-size: 16px;
+
+}
+
+li {
+	display: inline;
+	font-size: 16px;
+}
+
+li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 0 20px;
+}
+
+li a:hover {
+	color: #111;
+	background: #fff;
+}
+
+#container-rodape {
+	background: #111;
+	text-align: center;
+	padding: 15px 80px 1px 80px;
+	color: #777;
+	opacity: 0.9;
+}
+
+#topo {
+	font-size: 0.5em;
+}
+
+.conteudo {
+	background: white;
+	text-align: justify;
+	padding: 50px 80px;
+	color: #777;
+}
+
+
+
+/*Efeito Parallax*/
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+	height: 100%;
+	position: relative;
+	opacity: 0.7;
+	background-size: cover; /*Preencher toda a área */
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.caixa1 {
+	background-image: url(../imagens/imagem9.jpg);
+}
+
+.caixa2 {
+	background-image: url(../imagens/imagem10.jpg);
+}
+
+.caixa3 {
+	background-image: url(../imagens/imagem7.jpg);
+}
+
+.caixa4 {
+	background-image: url(../imagens/imagem11.jpg);
+}
+
+.caixa5 {
+	background-image: url(../imagens/imagem3.jpg)
+}
+
+.caixa-topo {
+	position: absolute;
+	top: 50%;
+	font-size: 3em;
+	color: #fff;
+	background: #333924;
+	padding: 15px 0;
+	width: 100%;
+	text-align: center;
+	opacity: 0.7;
+	font-weight: 900;
+}
+
+.caixa-conteudo {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.caixa-conteudo span.conteudo {
+	font-size: 2em;
+	letter-spacing: 2px;
+	color: #fff;
+	background: #111;
+	padding: 18px;
+	opacity: 0.9;
+	text-transform: uppercase;
+}
